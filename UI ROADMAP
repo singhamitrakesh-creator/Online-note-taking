@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cloud Notes - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Cloud Notes</h2>
+
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Password">
+
+<button onclick="register()">Register</button>
+<button onclick="login()">Login</button>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
